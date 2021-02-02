@@ -1,0 +1,10 @@
+body {
+	background-image: url("../img/background.png"); /* The image used */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+img.modImage {
+	float: left;
+	padding: 4px;
+}
