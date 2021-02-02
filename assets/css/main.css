@@ -4,7 +4,16 @@ body {
 	background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-img.modImage {
+img.modThumbnail {
 	float: left;
 	padding: 4px;
+	width: 120px;
+}
+
+div.downloadButtonContainer {
+	float: right;
+}
+
+div.detailsContainer {
+	margin-left: 130px;
 }
