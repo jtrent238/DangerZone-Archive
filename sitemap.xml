@@ -1,401 +1,403 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>http://dzarchive.jtrent238.tk</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/download.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/discord.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/download.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/hammermod_thumb.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/duckmod_thumb.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/xahannfoodmod_thumb.png</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/index.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/webserverlib.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/duckmod.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/massiveexplosives.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/invalidnamebattletowers.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_0.8.zip</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_1.9.zip</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/flatdimension.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/hammermod.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/discordrpc.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/architect.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_1.9.3.zip</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/architect/Architect_2.0_for_DZ1.9.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/mods/xahannfoodmod.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/xahannfoodmod_thumb.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/xahannfoodmod_0.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/webserverlib.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/mods/magicalme.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/duckmod.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/duckmod_thumb.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/flatdimension.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/mods/orespawn.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_0.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_1.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_2.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_3.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_4.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_5.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_6.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_7.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_8.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/orespawn_9.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/massiveexplosives.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/massiveexplosives_0.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/massiveexplosives_1.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/massiveexplosives_2.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/massiveexplosives_3.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/hammermod.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/hammermod_thumb.png</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/mods/extragui.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/invalidnamebattletowers.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/invalidnamebattletowers_0.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/invalidnamebattletowers_1.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/invalidnamebattletowers_2.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/invalidnamebattletowers_3.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/invalidnamebattletowers_4.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/discordrpc.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/launchers.html</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/jtrent238dzlauncher_0.png</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
-    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_1.8a.zip</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_0.8.zip</loc>
   </url>
   <url>
-    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_0.9.zip</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_1.0_for_dz0.7.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_1.0_for_dz0.9.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/MassiveExplosives_for_dz.1.6.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_2.0_for_dz1.9.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/invalidnamebattletowers/InvalidName's_Battle_Towers_v1.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/invalidnamebattletowers/InvalidName's_Battle_Towers_v1_DZ2.1.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-1.7.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-2.0.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/discordrpc/DangerZoneRichPresence_DEBUG_DZ2.1.zip</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <loc>http://dzarchive.jtrent238.tk/mods/architect.html</loc>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/dangerzone_logo.png</image:loc>
+      <image:title>dangerzone_logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>http://dzarchive.jtrent238.tk/assets/img/placeholder.png</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_1.0.zip</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/architect/Architect_3.0_for_DZ1.9.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_2.0_for_dz1.0.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_0.9.zip</loc>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_2.0_for_dz1.8.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-1.9.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/xahannfoodmod/XahannsFoodPlus_Version2.2.2FixedIDK.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/orespawn/orespawn_02_for_dz0.7.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_1.8b.zip</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/MassiveExplosives_2.0_for_dz1.7.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_1.8a.zip</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/MassiveExplosives_for_dz.1.6.jar</loc>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_2.0_for_dz2.1.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-1.6.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_1.9.3.zip</loc>
   </url>
   <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-2.1.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_2.0_for_dz1.9.jar</loc>
   </url>
   <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/architect/Architect_3.0_for_DZ2.1.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_1.9.zip</loc>
   </url>
   <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/orespawn/orespawn_1.1_for_dz1.0.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/extragui/ExtraGUI_1.0_for_DZ1.9.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/xahannfoodmod/XahannsFoodPlus_Version3.1.0.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/extragui/DamageBars_1.0_for_DZ1.3.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/orespawn/orespawn_2.1a_for_dz1.8.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/extragui/ExtraGUI_1.0_for_DZ1.7.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-1.8.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/architect/Architect_for_DZ1.9.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
-  </url>
-  <url>
-    <loc>http://dzarchive.jtrent238.tk/mods/files/discordrpc/DangerZoneRichPresence_DEBUG_DZ1.9.zip</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/architect/Architect_2.0_for_DZ1.9.jar</loc>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/mods/files/orespawn/orespawn_for_dz0.9.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
   </url>
   <url>
-    <loc>http://dzarchive.jtrent238.tk/launchers/jtrent238-DangerZoneLauncher.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/xahannfoodmod/XahannsFoodPlus_Version3.1.0.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/architect/Architect_3.0_for_DZ2.1.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/orespawn/orespawn_2.1a_for_dz1.8.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/orespawn/orespawn_02_for_dz0.7.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/dzversions/dangerzone_1.8b.zip</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/discordrpc/DangerZoneRichPresence_DEBUG_DZ2.1.zip</loc>
   </url>
   <url>
     <loc>http://dzarchive.jtrent238.tk/mods/files/orespawn/OreSpawn_for_dz.1.6.jar</loc>
-    <lastmod>2021-02-06</lastmod>
-    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/xahannfoodmod/XahannsFoodPlus_Version2.2.2FixedIDK.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/extragui/DamageBars_1.0_for_DZ1.3.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/discordrpc/DangerZoneRichPresence_DEBUG_DZ1.9.zip</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/orespawn/orespawn_1.1_for_dz1.0.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/extragui/ExtraGUI_1.0_for_DZ1.9.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/invalidnamebattletowers/InvalidName's_Battle_Towers_v1_DZ2.1.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/launchers/jtrent238-DangerZoneLauncher.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-1.8.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/extragui/ExtraGUI_1.0_for_DZ1.7.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/invalidnamebattletowers/InvalidName's_Battle_Towers_v1.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-2.1.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-1.7.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/extragui/DamageBars_1.0_1_for_DZ1.3.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_2.0_for_dz1.0.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-2.0.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-1.6.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/architect/Architect_for_DZ1.9.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_1.0_for_dz0.9.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/hammermod/HammerMod-pre-1.0.0.0-DZ-1.9.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/architect/Architect_3.0_for_DZ1.9.jar</loc>
+  </url>
+  <url>
+    <loc>http://dzarchive.jtrent238.tk/mods/files/massiveexplosives/massiveexplosives_1.0_for_dz0.7.jar</loc>
   </url>
 </urlset>
-<!--<guid value="b4a7cd7e-bb07-4fd9-a777-d5057503750e" />-->
+<!--<guid value="a956def3-b067-489f-9c98-e0e477638391" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>http://dzarchive.jtrent238.tk/</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/index.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/discord.html</loc>
-  <lastmod>2021-02-06T20:40:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/download.html</loc>
-  <lastmod>2021-02-06T20:40:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/architect.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/invalidnamebattletowers.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/extragui.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/discordrpc.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/massiveexplosives.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/orespawn.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/hammermod.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/duckmod.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/magicalme.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/flatdimension.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/webserverlib.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/mods/xahannfoodmod.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://dzarchive.jtrent238.tk/launchers.html</loc>
-  <lastmod>2021-02-06T20:40:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
-</urlset>
->>>>>>> 4c2d7a46c45244f9c64d80e9670e5d1812b178af
