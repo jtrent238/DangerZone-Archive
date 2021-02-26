@@ -2,9 +2,7 @@
 <?php
 
 	$myurl = 'http://stfh.jtrent238.tk'; // Sets the defauld site url Default is stfh.jtrent238.tk
-	
-	$theme = 'sunflower'; // Sets the websites theme valid themes are "default, dark, beach, sunflower"
-	
+		
 	$cfg_debug = false; // Enable Debugging ** Warning private data dumped to console ***
 
 	$adminUser = "admin";
@@ -14,7 +12,10 @@
 	
 	// Database stuff
 
-	
+	$servername = "mysql-jtrent238.alwaysdata.net";
+	$username = "jtrent238_dzmods";
+	$password = "tg9tv9MpPmXFejR7";
+	$dbname = "jtrent238_dangerzonemods";
 	
 	define('DB_SERVER', $servername);
 	define('DB_USERNAME', $username);
