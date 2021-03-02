@@ -19,7 +19,6 @@ jobs:
       uses: cicirello/generate-sitemap@v1.6.1
       with:
         base-url-path: https://dzarchive.jtrent238.tk
-        path-to-root: main
         sitemap-format: xml
     - name: Output stats
       run: |
