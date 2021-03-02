@@ -1,4 +1,4 @@
-name: Generate xml sitemap
+name: Generate API sitemap
 
 on:
   push:
@@ -13,12 +13,14 @@ jobs:
     - name: Checkout the repo
       uses: actions/checkout@v2
       with:
-        fetch-depth: 0 
+        fetch-depth: 100 
     - name: Generate the sitemap
       id: sitemap
       uses: cicirello/generate-sitemap@v1.6.1
       with:
         base-url-path: https://dzarchive.jtrent238.tk
+        path-to-root: main
+        sitemap-format: xml
     - name: Output stats
       run: |
         echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
