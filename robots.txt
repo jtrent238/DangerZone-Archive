@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 Allow: /sitemap.htm
+Allow: /sitemap.xml
 Sitemap: http://dzarchive.jtrent238.tk/sitemap.xml
