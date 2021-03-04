@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DangerZone Downloads</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="icon" type="image/ico" href="../assets/favicon.ico">
+	<script src="https://use.fontawesome.com/1a4a46cdd7.js"></script>
+	
+
+</head>
+
+<body>
+
+	<div class="banner w3-container w3-dark-grey w3-center">
+	  <img src="./assets/img/dangerzone_logo.png" alt="dangerzone_logo" class="dangerzone_logo_banner">
+	  <h1>DangerZone Downloads</h1>
+	  <div class="w3-bar">
+		<a href="./index.html" class="w3-bar-item w3-button">Home</a>
+		<a href="./mods.html" class="w3-bar-item w3-button">Mods</a>
+		<a href="https://github.com/jtrent238/DangerZone-Archive" class="w3-bar-item w3-button">Github</a>
+		<a href="./discord.html" class="w3-bar-item w3-button">Discord</a>
+		<a href="./download.html" class="w3-bar-item w3-button">Get DangerZone</a>
+	  </div>
+	</div>
+	
+	<!-- MODS CONTAINER START-->
+	<div class="w3-container">
+		<div class="w3-container w3-padding-16">
+			<div class="w3-card-4">
+
+			<header class="w3-container w3-dark-grey w3-display-container">
+			  <h2 class="w3-left">Submit a mod:</h2>
+			</header>
+
+			<div class="w3-container w3-grey">
+					
+				<div class="w3-container w3-center">
+					<div class="w3-container discordContainer-left">
+						<h4></h4>
+					</div>
+					</br>
+					<div>
+						<center>
+							<h3>Use this form to submit a mod:</h3>
+							<hr style="	width: 50%;">
+							
+<form onsubmit="sendWebhook()" class="w3-container w3-card-4 w3-light-grey w3-text-grey w3-margin">
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" id="contactEmail" name="contactEmail" type="text" placeholder="Email">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-info"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" id="modName" name="modName" type="text" placeholder="Mod Name">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-info"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" id="modDesc" name="modDesc" type="text" placeholder="Mod Description">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-info"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" id="modAuthor" name="modAuthor" type="text" placeholder="Mod Author">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-info"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" id="modVersion" name="modVersion" type="text" placeholder="Mod Version">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-info"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" id="modDZVersion" name="modDZVersion" type="text" placeholder="Mod DZ Version">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-info"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" id="modDownload" name="modDownload" type="text" placeholder="Mod Download">
+    </div>
+</div>
+
+<button id="submit" type="submit"class="w3-button w3-block w3-section w3-grey w3-ripple w3-padding">Submit Mod</button>
+<script>
+    function sendWebhook() {
+		var contactEmail = document.getElementById("contactEmail").value;
+		var modName = document.getElementById("modName").value;
+		var modDesc = document.getElementById("modDesc").value;
+		var modAuthor = document.getElementById("modAuthor").value;
+		var modVersion = document.getElementById("modVersion").value;
+		var modDZVersion = document.getElementById("modDZVersion").value;
+		var modDownload = document.getElementById("modDownload").value;
+		//var modName = "modName";
+		//var modAuthor = "modAuthor";
+		//var modVersion = "modVersion";
+		//var modDZVersion = "modDZVersion";
+		//var modDownload = "modDownload";
+		
+		var request = new XMLHttpRequest();
+		request.open("POST", "https://canary.discord.com/api/webhooks/817033745617649665/5BDtDUHXxXUyBlchzA0VdQ7WKBlxxcoaP-RuMjBUqlgwvvvNpoyQ2FI7mkSXdWeB3oPg");
+		// again, replace the url in the open method with yours
+		request.setRequestHeader('Content-Type', 'application/json');
+
+		var myEmbed = {
+		  author: {
+			name: "Mod Submition"
+		  },
+		  title: "Mod Submition: " + modName,
+		  description: "",
+		 fields: [
+			  {
+				name: "Contact Email:",
+				value: contactEmail,
+				inline: true
+			  },
+			  {
+				name: "Mod Name:",
+				value: modName,
+				inline: true
+			  },
+			  {
+				name: "Mod Description:",
+				value: modDesc,
+				inline: false
+			  },
+			  {
+				name: "Mod Author:",
+				value: modAuthor,
+				inline: true
+			  },
+			  {
+				name: "Mod Version:",
+				value: modVersion,
+				inline: true
+			  },
+			  {
+				name: "Mod DZ Version:",
+				value: modDZVersion,
+				inline: true
+			  },
+			  {
+				name: "Mod Download:",
+				value: modDownload,
+				inline: false
+			  }],
+		  color: hexToDecimal("#ff0000")
+		}
+
+		var params = {
+		  username: "My Webhook Name",
+		  embeds: [ myEmbed ]
+		}
+
+		request.send(JSON.stringify(params));
+
+		// function that converts a color HEX to a valid Discord color
+		function hexToDecimal(hex) {
+		  return parseInt(hex.replace("#",""), 16)
+		}
+}
+  </script>
+<div><center>You will recieve an email wether your mod was approved or not, and for futher info.</br>If you need help the join one of the <a href="./discord.html">Discord servers</a>!</center></div><br>
+
+</form>
+							<hr style="	width: 50%;">
+						</center>
+					</div>
+			  </div>
+			  
+			</div>
+			
+			<footer class="w3-container w3-dark-grey">
+			  <div class="w3-container"> 
+				<p>Last Updated: 3/4/2021</p>
+			  </div>
+			</footer>
+
+			</div>
+		</div>
+		
+	</div>
+	<!-- MODS CONTAINER END-->
+<br>
+	<div class="w3-container w3-dark-grey">
+	  <div class="w3-container w3-center hitCounter">
+		<!-- hitwebcounter Code START -->
+		<a href="https://www.hitwebcounter.com" target="_blank">
+		<img src="https://hitwebcounter.com/counter/counter.php?page=7748059&style=0038&nbdigits=9&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>    
+	  </div>
+	</div>
+
+</body>
+</html> 
