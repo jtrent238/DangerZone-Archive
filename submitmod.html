@@ -120,7 +120,7 @@
 		var request = new XMLHttpRequest();
 		request.open("POST", "https://canary.discord.com/api/webhooks/817033745617649665/5BDtDUHXxXUyBlchzA0VdQ7WKBlxxcoaP-RuMjBUqlgwvvvNpoyQ2FI7mkSXdWeB3oPg");
 		// again, replace the url in the open method with yours
-		request.setRequestHeader('Content-Type', 'application/json');
+		request.setRequestHeader('Content-Type', 'application/json', 'Access-Control-Allow-Origin');
 
 		var myEmbed = {
 		  author: {
