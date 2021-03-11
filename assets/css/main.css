@@ -10,13 +10,27 @@ img.modThumbnail {
 	width: 120px;
 }
 
+@media screen and (max-width: 768px) {
+	div.thumnailContainer {
+		display: none;
+	}
+	
+	div.detailsContainer {
+		margin-left: 0px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	div.detailsContainer {
+		margin-left: 130px;
+	}
+}
+
 div.downloadButtonContainer {
 	float: right;
 }
 
-div.detailsContainer {
-	margin-left: 130px;
-}
+
 
 .downloadButton {
   margin-top: 5px;
